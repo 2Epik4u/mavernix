@@ -446,3 +446,9 @@ iterations = 2
 degrade = 1
 offset = 1.85
 saturation = 1.0
+
+[gtk]
+# Move the gtk window decorations to the left, like how it is on macOS
+button_side = "left"
+button_order = ["close", "minimize", "maximize"]
+
